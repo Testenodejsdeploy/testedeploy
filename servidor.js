@@ -23,9 +23,9 @@ io.on('connection', (socket) => {
   })
 })
 
-app.get('/', (req, res) => {
-	res.sendFile(__dirname + '/index.html')
-})
+//app.get('/', (req, res) => {
+//	res.sendFile(__dirname + '/index.html')
+//})
 
 server.listen(3000, () => {
   console.log("Servidor rodando na porta 3000")
